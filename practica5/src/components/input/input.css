@@ -1,0 +1,51 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../img/planeta.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input_text {
+  border-radius: 10px;
+  height: 25px;
+  width: 250px;
+}
+.container_type {
+  display: flex;
+}
+.type {
+  margin: 10px;
+  cursor: pointer;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #00188f 0%,
+    #24baff 46%,
+    #00d471 100%
+  );
+  padding: 20px;
+  border-radius: 10px;
+}
+.container_search {
+  display: flex;
+}
+.button {
+  cursor: pointer;
+  margin: 5px;
+  background-color: #05ecce;
+  border-radius: 5px;
+  padding: 5px;
+}
+.button:hover {
+  background-color: #e742be;
+}
