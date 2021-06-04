@@ -1,0 +1,12 @@
+.image{
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  background-image: url('https://media.istockphoto.com/vectors/returned-vector-icon-vector-id900591912?k=6&m=900591912&s=612x612&w=0&h=m2jg9POG2RZ_fMOHUWRLQzALovkNQiZVtPkA6m0qCwg=');
+}
+.center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
